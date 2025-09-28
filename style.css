@@ -1,0 +1,22 @@
+/* style.css - simple professional look */
+body.bg-blue {
+    background: linear-gradient(180deg,#007bff 0%, #4aa3ff 100%);
+    font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    color: #222;
+}
+
+.card {
+    background: #ffffff;
+}
+
+.form-text {
+    color: #6c757d;
+}
+
+/* small responsive tweak */
+@media (max-width:600px) {
+    .card { padding: 18px !important; margin: 8px; }
+}

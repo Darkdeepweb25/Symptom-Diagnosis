@@ -1,0 +1,277 @@
+Symptom,Disease,Precaution,Medicine
+Fever,Flu,Rest and stay hydrated,Paracetamol
+Cough,Common Cold,Avoid cold drinks,Cough Syrup
+Headache,Migraine,Avoid bright light,Ibuprofen
+Fatigue,Anemia,Iron-rich diet,Ferrous Sulfate
+Nausea,Food Poisoning,Avoid contaminated food,Antiemetics
+Vomiting,Gastroenteritis,Hydrate frequently,Oral Rehydration Salts
+Diarrhea,Cholera,Drink clean water,Oral Rehydration Salts
+Muscle pain,Dengue,Rest and hydrate,Paracetamol
+Joint pain,Arthritis,Exercise moderately,Painkillers
+Sore throat,Tonsillitis,Rest and gargle salt water,Antibiotics
+Shortness of breath,Asthma,Use inhaler regularly,Salbutamol
+Chest pain,Heart Attack,Call emergency immediately,Aspirin
+Dizziness,Vertigo,Rest and hydrate,Sedatives
+Rashes,Measles,Avoid scratching,Topical Cream
+Blurred vision,Diabetes,Monitor sugar intake,Insulin
+Hair loss,Thyroid Disorder,Healthy diet,Thyroid Medication
+Back pain,Kidney Stones,Hydrate and rest,Painkillers
+Abdominal pain,Appendicitis,Seek emergency care,Surgery
+Swelling,Heart Failure,Monitor salt intake,Diuretics
+Palpitations,Arrhythmia,Monitor heart rate,Beta Blockers
+Insomnia,Insomnia,Maintain sleep hygiene,Sedatives
+Mood swings,Depression,Healthy sleep schedule,Antidepressants
+Memory loss,Alzheimer's Disease,Mental exercises,Donepezil
+Tremors,Parkinson's Disease,Exercise and therapy,Levodopa
+Cold hands,Hypothyroidism,Wear warm clothes,Thyroid Medication
+Cold feet,Hypothyroidism,Wear warm socks,Thyroid Medication
+Sweating,Hyperthyroidism,Monitor diet,Antithyroid drugs
+Weight gain,Hypothyroidism,Exercise regularly,Thyroid Medication
+Weakness,Anemia,Iron-rich diet,Ferrous Sulfate
+Numbness,Peripheral Neuropathy,Foot care,Vitamin B12
+Tingling,Peripheral Neuropathy,Monitor sugar intake,Vitamin B12
+Fever,Flu,Rest and stay hydrated,Paracetamol
+Cough,Common Cold,Stay warm,Antihistamines
+Headache,Migraine,Avoid triggers,Ibuprofen
+Fatigue,Anemia,Iron supplements,Ferrous Sulfate
+Nausea,Food Poisoning,Hydrate,Antiemetics
+Vomiting,Gastroenteritis,Drink fluids,Oral Rehydration Salts
+Diarrhea,Cholera,Hydrate frequently,Oral Rehydration Salts
+Muscle pain,Dengue,Rest and hydrate,Paracetamol
+Joint pain,Arthritis,Exercise moderately,Painkillers
+Sore throat,Tonsillitis,Rest and gargle salt water,Antibiotics
+Shortness of breath,Asthma,Use inhaler,Salbutamol
+Chest pain,Heart Attack,Call emergency immediately,Aspirin
+Dizziness,Vertigo,Avoid loud noises,Sedatives
+Rashes,Measles,Rest and hydrate,Topical Cream
+Blurred vision,Diabetes,Protect eyes from sun,Eye treatment
+Hair loss,Thyroid Disorder,Healthy diet,Thyroid Medication
+Back pain,Kidney Stones,Hydrate and rest,Painkillers
+Abdominal pain,Appendicitis,Seek emergency care,Surgery
+Swelling,Heart Failure,Low sodium diet,Diuretics
+Palpitations,Arrhythmia,Reduce caffeine,Beta Blockers
+Insomnia,Insomnia,Maintain sleep hygiene,Sedatives
+Mood swings,Depression,Healthy sleep schedule,Antidepressants
+Memory loss,Alzheimer's Disease,Mental exercises,Donepezil
+Tremors,Parkinson's Disease,Exercise and therapy,Levodopa
+Cold hands,Hypothyroidism,Wear warm clothes,Thyroid Medication
+Cold feet,Hypothyroidism,Wear warm socks,Thyroid Medication
+Sweating,Hyperthyroidism,Stay hydrated,Antithyroid drugs
+Weight gain,Hypothyroidism,Exercise regularly,Thyroid Medication
+Weakness,Anemia,Iron supplements,Ferrous Sulfate
+Numbness,Peripheral Neuropathy,Foot care,Vitamin B12
+Tingling,Peripheral Neuropathy,Monitor sugar intake,Vitamin B12
+Fever,Flu,Rest and stay hydrated,Paracetamol
+Cough,Common Cold,Avoid cold drinks,Cough Syrup
+Headache,Migraine,Avoid bright light,Ibuprofen
+Fatigue,Anemia,Iron-rich diet,Ferrous Sulfate
+Nausea,Food Poisoning,Avoid contaminated food,Antiemetics
+Vomiting,Gastroenteritis,Hydrate frequently,Oral Rehydration Salts
+Diarrhea,Cholera,Drink clean water,Oral Rehydration Salts
+Muscle pain,Dengue,Rest and hydrate,Paracetamol
+Joint pain,Arthritis,Exercise moderately,Painkillers
+Sore throat,Tonsillitis,Rest and gargle salt water,Antibiotics
+Shortness of breath,Asthma,Use inhaler regularly,Salbutamol
+Chest pain,Heart Attack,Call emergency immediately,Aspirin
+Dizziness,Vertigo,Rest and hydrate,Sedatives
+Rashes,Measles,Avoid scratching,Topical Cream
+Blurred vision,Diabetes,Monitor sugar intake,Insulin
+Hair loss,Thyroid Disorder,Healthy diet,Thyroid Medication
+Back pain,Kidney Stones,Hydrate and rest,Painkillers
+Abdominal pain,Appendicitis,Seek emergency care,Surgery
+Swelling,Heart Failure,Monitor salt intake,Diuretics
+Palpitations,Arrhythmia,Monitor heart rate,Beta Blockers
+Insomnia,Insomnia,Maintain sleep hygiene,Sedatives
+Mood swings,Depression,Healthy sleep schedule,Antidepressants
+Memory loss,Alzheimer's Disease,Mental exercises,Donepezil
+Tremors,Parkinson's Disease,Exercise and therapy,Levodopa
+Cold hands,Hypothyroidism,Wear warm clothes,Thyroid Medication
+Cold feet,Hypothyroidism,Wear warm socks,Thyroid Medication
+Sweating,Hyperthyroidism,Monitor diet,Antithyroid drugs
+Weight gain,Hypothyroidism,Exercise regularly,Thyroid Medication
+Weakness,Anemia,Iron-rich diet,Ferrous Sulfate
+Numbness,Peripheral Neuropathy,Foot care,Vitamin B12
+Tingling,Peripheral Neuropathy,Monitor sugar intake,Vitamin B12
+Chills,Typhoid,Rest,Antibiotics
+Abdominal pain,Typhoid,Avoid spicy food,Antibiotics
+Diarrhea,Typhoid,Hydrate frequently,Oral Rehydration Salts
+Headache,Typhoid,Rest,Paracetamol
+Muscle pain,Typhoid,Rest,Paracetamol
+Nausea,Typhoid,Avoid contaminated food,Antiemetics
+Vomiting,Typhoid,Hydrate,Antiemetics
+Rashes,Typhoid,Consult doctor,Antibiotics
+Weakness,Typhoid,Rest,Vitamin supplements
+Fever,Malaria,Use mosquito net,Antimalarial
+Chills,Malaria,Stay warm,Antimalarial
+Sweating,Malaria,Hydrate frequently,Antimalarial
+Headache,Malaria,Rest,Paracetamol
+Nausea,Malaria,Hydrate,Antiemetics
+Vomiting,Malaria,Drink fluids,Antiemetics
+Muscle pain,Malaria,Rest and hydrate,Paracetamol
+Fatigue,Malaria,Rest,Vitamin supplements
+Dizziness,Malaria,Rest and hydrate,Sedatives
+Jaundice,Hepatitis A,Rest and avoid alcohol,Antivirals
+Dark urine,Hepatitis A,Hydrate,Antivirals
+Nausea,Hepatitis A,Avoid contaminated food,Antiemetics
+Vomiting,Hepatitis A,Hydrate,Antiemetics
+Loss of appetite,Hepatitis A,Balanced diet,Vitamin supplements
+Fever,Hepatitis B,Rest,Antivirals
+Fatigue,Hepatitis B,Stay hydrated,Antivirals
+Abdominal pain,Hepatitis B,Consult doctor,Antivirals
+Dark urine,Hepatitis B,Hydrate,Antivirals
+Jaundice,Hepatitis B,Rest,Antivirals
+Muscle pain,Dengue,Hydrate,Paracetamol
+Fever,Dengue,Rest and hydrate,Paracetamol
+Joint pain,Dengue,Rest,Paracetamol
+Headache,Dengue,Avoid bright light,Paracetamol
+Rash,Dengue,Stay indoors,Topical Cream
+Nausea,Dengue,Hydrate,Antiemetics
+Vomiting,Dengue,Drink fluids,Antiemetics
+Fatigue,Dengue,Rest,Vitamin supplements
+Shortness of breath,Asthma,Use inhaler,Salbutamol
+Wheezing,Asthma,Avoid allergens,Salbutamol
+Cough with phlegm,Bronchitis,Avoid smoke,Cough Syrup
+Chest tightness,Angina,Rest and monitor,Beta Blockers
+Leg cramps,Dehydration,Hydrate,Salt tablets
+Back stiffness,Arthritis,Exercise moderately,Painkillers
+Neck pain,Muscle Strain,Correct posture,Painkillers
+Shoulder pain,Bursitis,Rest and ice,Painkillers
+Hip pain,Osteoarthritis,Exercise moderately,Painkillers
+Knee pain,Osteoarthritis,Exercise and rest,Painkillers
+Foot pain,Gout,Limit purine-rich foods,Painkillers
+Hand swelling,Arthritis,Exercise and rest,Painkillers
+Finger numbness,Carpal Tunnel Syndrome,Ergonomic setup,Painkillers
+Toe pain,Gout,Limit purine-rich foods,Painkillers
+Swollen tongue,Glossitis,Vitamin supplements,Vitamin B12
+Dry skin,Eczema,Moisturize frequently,Topical Cream
+Rashes with fever,Chickenpox,Isolate and hydrate,Antivirals
+Red palms,Hand-Foot Syndrome,Monitor treatment,Chemotherapy
+Bleeding gums,Gingivitis,Brush properly,Antiseptic mouthwash
+Toothache,Dental Caries,Maintain oral hygiene,Painkillers
+Bad breath,Gum Disease,Oral hygiene,Antiseptic mouthwash
+Ear pain,Otitis Media,Avoid water in ears,Antibiotics
+Ear discharge,Otitis Media,Consult doctor,Antibiotics
+Swollen eyelids,Allergic Conjunctivitis,Avoid allergens,Antihistamines
+Eye discharge,Conjunctivitis,Do not touch eyes,Antibiotics
+Blurred vision with headache,Glaucoma,Avoid eye strain,Eye drops
+Sudden headache with nausea,Migraine,Avoid triggers,Ibuprofen
+Severe abdominal pain,Appendicitis,Seek emergency care,Surgery
+Persistent vomiting,Food Poisoning,Hydrate,Antiemetics
+Yellow eyes,Hepatitis,Rest and avoid alcohol,Antivirals
+Dark urine with fatigue,Hepatitis,Hydrate and rest,Antivirals
+Persistent cough with phlegm,Pneumonia,Consult doctor,Antibiotics
+Fever with chills,Malaria,Use mosquito net,Antimalarial
+Body ache,Dengue,Rest and hydrate,Paracetamol
+Severe joint pain,Dengue,Rest and hydrate,Paracetamol
+Rashes with blisters,Chickenpox,Isolate and hydrate,Antivirals
+Red spots with fever,Measles,Rest and hydrate,Topical Cream
+Severe headache with fever,Meningitis,Seek medical attention,Antibiotics
+Stiff neck,Meningitis,Immediate care,Antibiotics
+Confusion with fever,Meningitis,Hospitalization,Antibiotics
+Seizures,Epilepsy,Medication adherence,Antiepileptics
+Loss of consciousness,Epilepsy,Keep patient safe,Antiepileptics
+Numbness in limbs,Stroke,Immediate medical attention,Thrombolytics
+Weakness on one side,Stroke,Emergency care,Thrombolytics
+Speech difficulty,Stroke,Rehabilitation,Speech therapy
+Facial drooping,Stroke,Hospitalization,Thrombolytics
+Chest pain with sweating,Heart Attack,Call emergency,Aspirin
+Shortness of breath with exertion,Heart Failure,Monitor salt intake,Diuretics
+Swelling in legs,Heart Failure,Low sodium diet,Diuretics
+Palpitations with dizziness,Arrhythmia,Consult cardiologist,Beta Blockers
+Rapid heartbeat,Arrhythmia,Reduce caffeine,Beta Blockers
+Slow heartbeat,Bradycardia,Check pacemaker,Beta Blockers
+Extreme fatigue,Anemia,Iron-rich diet,Ferrous Sulfate
+Pale skin,Anemia,Iron supplements,Ferrous Sulfate
+Cold hands and feet,Hypothyroidism,Wear warm clothes,Thyroid Medication
+Weight gain,Hypothyroidism,Exercise regularly,Thyroid Medication
+Heat intolerance,Hyperthyroidism,Stay hydrated,Antithyroid drugs
+Nervousness,Hyperthyroidism,Stress management,Antithyroid drugs
+Insomnia,Insomnia,Maintain sleep hygiene,Sedatives
+Persistent sadness,Depression,Consult psychologist,Antidepressants
+Mood swings,Bipolar Disorder,Mood monitoring,Mood stabilizers
+Confusion,Delirium,Seek medical attention,Medications
+Memory loss,Alzheimer's Disease,Mental exercises,Donepezil
+Tremors,Parkinson's Disease,Exercise and therapy,Levodopa
+Slow movement,Parkinson's Disease,Physical therapy,Levodopa
+Difficulty swallowing,Esophageal Cancer,Soft diet,Chemotherapy
+Persistent cough,Throat Cancer,Voice rest,Surgery
+Hoarseness,Throat Cancer,Voice rest,Surgery
+Red eyes,Conjunctivitis,Avoid touching eyes,Antibiotics
+Eye discharge,Conjunctivitis,Do not touch eyes,Antibiotics
+Itchy eyes,Allergic Conjunctivitis,Avoid allergens,Antihistamines
+Swollen eyelids,Allergic Conjunctivitis,Avoid allergens,Antihistamines
+Runny nose,Allergic Rhinitis,Avoid dust,Antihistamines
+Sneezing,Common Cold,Stay warm,Antihistamines
+Cough,Common Cold,Avoid cold drinks,Cough Syrup
+Fever,Flu,Rest and stay hydrated,Paracetamol
+Chills,Flu,Stay warm,Paracetamol
+Muscle pain,Dengue,Rest and hydrate,Paracetamol
+Joint pain,Arthritis,Exercise moderately,Painkillers
+Back pain,Kidney Stones,Hydrate and rest,Painkillers
+Abdominal pain,Appendicitis,Seek emergency care,Surgery
+Constipation,Irritable Bowel Syndrome,High fiber diet,Probiotics
+Diarrhea,Cholera,Drink clean water,Oral Rehydration Salts
+Vomiting,Gastroenteritis,Hydrate frequently,Oral Rehydration Salts
+Nausea,Food Poisoning,Avoid contaminated food,Antiemetics
+Heartburn,GERD,Avoid late meals,Antacids
+Indigestion,GERD,Avoid spicy food,Antacids
+Bloating,Acid Reflux,Small frequent meals,Antacids
+Belching,GERD,Avoid carbonated drinks,Antacids
+Abdominal bloating,Irritable Bowel Syndrome,Small frequent meals,Probiotics
+Excessive urination,Diabetes,Monitor sugar intake,Insulin
+Dry mouth,Diabetes,Hydrate frequently,Insulin
+Weight loss,Diabetes,Balanced diet,Insulin
+Excessive hunger,Diabetes,Monitor sugar intake,Insulin
+Frequent urination,Diabetes,Monitor sugar intake,Insulin
+Fatigue,Anemia,Iron-rich diet,Ferrous Sulfate
+Paleness,Anemia,Iron-rich diet,Ferrous Sulfate
+Numbness,Peripheral Neuropathy,Foot care,Vitamin B12
+Tingling,Peripheral Neuropathy,Monitor sugar intake,Vitamin B12
+Weakness,Anemia,Iron-rich diet,Ferrous Sulfate
+Pale lips,Anemia,Iron supplements,Ferrous Sulfate
+Cold hands,Hypothyroidism,Wear warm clothes,Thyroid Medication
+Cold feet,Hypothyroidism,Wear warm socks,Thyroid Medication
+Ringing in ears,Vertigo,Avoid loud noises,Sedatives
+Dizziness,Vertigo,Rest and hydrate,Sedatives
+Tremors,Parkinson's Disease,Exercise and therapy,Levodopa
+Memory loss,Alzheimer's Disease,Mental exercises,Donepezil
+Confusion,Depression,Consult psychologist,Antidepressants
+Anxiety,Anxiety Disorder,Relaxation techniques,Antianxiety drugs
+Mood swings,Depression,Healthy sleep schedule,Antidepressants
+Insomnia,Insomnia,Maintain sleep hygiene,Sedatives
+Shortness of breath,Asthma,Use inhaler regularly,Salbutamol
+Wheezing,Asthma,Stay indoors during pollen,Salbutamol
+Cough with phlegm,Bronchitis,Avoid smoking,Cough Syrup
+Chest tightness,Angina,Rest and monitor,Beta Blockers
+Leg cramps,Dehydration,Hydrate,Salt tablets
+Back stiffness,Arthritis,Exercise moderately,Painkillers
+Neck pain,Muscle Strain,Correct posture,Painkillers
+Shoulder pain,Bursitis,Rest and ice,Painkillers
+Hip pain,Osteoarthritis,Exercise moderately,Painkillers
+Knee pain,Osteoarthritis,Exercise and rest,Painkillers
+Foot pain,Gout,Limit purine-rich foods,Painkillers
+Hand swelling,Arthritis,Exercise and rest,Painkillers
+Finger numbness,Carpal Tunnel Syndrome,Ergonomic setup,Painkillers
+Toe pain,Gout,Limit purine-rich foods,Painkillers
+Swollen tongue,Glossitis,Vitamin supplements,Vitamin B12
+Dry skin,Eczema,Moisturize frequently,Topical Cream
+Rashes with fever,Chickenpox,Isolate and hydrate,Antivirals
+Red palms,Hand-Foot Syndrome,Monitor treatment,Chemotherapy
+Bleeding gums,Gingivitis,Brush properly,Antiseptic mouthwash
+Toothache,Dental Caries,Maintain oral hygiene,Painkillers
+Bad breath,Gum Disease,Oral hygiene,Antiseptic mouthwash
+Ear pain,Otitis Media,Avoid water in ears,Antibiotics
+Ear discharge,Otitis Media,Consult doctor,Antibiotics
+Skin rashes,Allergy,Avoid allergen,Antihistamines
+Hives,Allergic Reaction,Avoid allergen,Antihistamines
+Swollen joints,Rheumatoid Arthritis,Exercise moderately,Anti-inflammatory
+Morning stiffness,Rheumatoid Arthritis,Stretching,Anti-inflammatory
+Painful urination,Urinary Tract Infection,Hydrate,Antibiotics
+Frequent urination,Urinary Tract Infection,Hydrate,Antibiotics
+Blood in urine,Urinary Tract Infection,Consult doctor,Antibiotics
+Pelvic pain,Endometriosis,Pain management,Painkillers
+Menstrual cramps,Dysmenorrhea,Pain management,Painkillers
+Irregular periods,PCOS,Consult gynecologist,Hormonal therapy
+Excessive hair growth,PCOS,Diet management,Hormonal therapy
+Acne,PCOS,Diet and skincare,Hormonal therapy
+Weight gain,PCOS,Diet and exercise,Hormonal therapy
