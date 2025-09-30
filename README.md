@@ -8,6 +8,8 @@ requirements.txt
 inside template folder:
 index.html
 result.html
+login.html
+register.html
 
 inside static folder:
 style.css
