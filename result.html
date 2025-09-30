@@ -1,91 +1,55 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Symptom Diagnosis Result 🩺</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <style>
-        body {
-            background-color: #e0f2ff;
-            font-family: Arial, sans-serif;
-            padding: 20px;
-        }
-        .disease-card {
-            margin-bottom: 20px;
-        }
-        .progress {
-            height: 20px;
-        }
-    </style>
+  <meta charset="utf-8" />
+  <title>Diagnosis Result 🩺</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body { background: #eaf8ff; font-family: Arial, sans-serif; padding:20px; }
+    .disease-card { margin-bottom:16px; }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <h1 class="text-center mb-4">Symptom Diagnosis Result 🩺</h1>
+  <div class="container">
+    <h1 class="text-center mb-4">Symptom Diagnosis Result 🩺</h1>
 
-        {% if results %}
-            {% for disease, info in results.items() %}
-                <div class="card disease-card shadow-sm">
-                    <div class="card-body">
-                        <h4 class="card-title">{{ disease }}</h4>
-                        <p><strong>Matched Symptoms:</strong> {{ info.matched_symptoms | join(', ') }}</p>
-                        <p><strong>Total Symptoms:</strong> {{ info.total_symptoms }}</p>
-                        <p><strong>Match Percentage:</strong></p>
-                        <div class="progress mb-2">
-                            <div class="progress-bar bg-success" role="progressbar" style="width: {{ info.match_percent }}%">
-                                {{ info.match_percent }}%
-                            </div>
-                        </div>
-                        <p><strong>Precautions:</strong> {{ info.precautions }}</p>
-                        <p><strong>Medicine:</strong> {{ info.medicine }}</p>
-                    </div>
-                </div>
-            {% endfor %}
+    {% if results %}
+      {% for disease, info in results.items() %}
+        <div class="card disease-card shadow-sm">
+          <div class="card-body">
+            <h4 class="card-title">{{ disease }}</h4>
+            <p><strong>Matched Symptoms:</strong> {{ info.matched_symptoms | join(', ') }}</p>
+            <p><strong>Precautions:</strong> {{ info.precaution }}</p>
+            <p><strong>Medicine:</strong> {{ info.medicine }}</p>
 
-            <h3 class="mt-5">Symptom Distribution Chart</h3>
-            <canvas id="symptomChart" width="400" height="200"></canvas>
-
-            <script>
-                const labels = [{% for disease, info in results.items() %}'{{ disease }}',{% endfor %}];
-                const data = {
-                    labels: labels,
-                    datasets: [{
-                        label: 'Match Percentage',
-                        data: [{% for disease, info in results.items() %}{{ info.match_percent }},{% endfor %}],
-                        backgroundColor: 'rgba(54, 162, 235, 0.6)',
-                        borderColor: 'rgba(54, 162, 235, 1)',
-                        borderWidth: 1
-                    }]
-                };
-
-                const config = {
-                    type: 'bar',
-                    data: data,
-                    options: {
-                        scales: {
-                            y: {
-                                beginAtZero: true,
-                                max: 100
-                            }
-                        }
-                    }
-                };
-
-                const symptomChart = new Chart(
-                    document.getElementById('symptomChart'),
-                    config
-                );
-            </script>
-
-        {% else %}
-            <div class="alert alert-warning text-center">
-                🩺 No matching diseases found for the selected symptoms.
+            <p class="mt-2"><strong>Match Percentage:</strong></p>
+            <div class="progress" style="height:24px;">
+              <div class="progress-bar bg-success" role="progressbar" style="width: {{ info.match_percent }}%;" aria-valuenow="{{ info.match_percent }}" aria-valuemin="0" aria-valuemax="100">
+                {{ info.match_percent }}%
+              </div>
             </div>
-        {% endif %}
-
-        <div class="text-center mt-4">
-            <a href="/" class="btn btn-primary">Back to Diagnosis</a>
+          </div>
         </div>
-    </div>
+      {% endfor %}
+
+      <div class="text-center mt-3">
+        {% if report_id %}
+          <a href="{{ url_for('download', report_id=report_id) }}" class="btn btn-success">⬇ Download This Report (PDF)</a>
+        {% else %}
+          <a href="{{ url_for('history') }}" class="btn btn-secondary">View History</a>
+        {% endif %}
+        <a href="{{ url_for('index') }}" class="btn btn-primary ms-2">Back</a>
+      </div>
+
+    {% else %}
+      <div class="alert alert-warning text-center">
+        🩺 No matching diseases found for the entered symptoms.
+      </div>
+      <div class="text-center mt-3">
+        <a href="{{ url_for('index') }}" class="btn btn-primary">Back</a>
+      </div>
+    {% endif %}
+  </div>
 </body>
 </html>
+
