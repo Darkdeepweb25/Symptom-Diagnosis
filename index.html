@@ -5,30 +5,41 @@
   <title>Symptom Diagnosis 🩺</title>
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
   <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
   <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
   <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
   <style>
-    .header-title { font-weight:700; font-size:2.4rem; display:inline-flex; align-items:center; gap:10px; color:white; }
+    body { background: #f0f8ff; font-family: Arial, Helvetica, sans-serif; }
+    .header-title { font-weight:700; font-size:2rem; display:inline-flex; align-items:center; gap:10px; }
     .card { max-width:760px; margin:auto; border-radius:12px; }
     .ui-autocomplete { max-height:200px; overflow-y:auto; overflow-x:hidden; }
   </style>
 </head>
-<body class="bg-blue">
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+      <span class="navbar-brand">🩺 Symptom Diagnosis</span>
+      <div class="d-flex">
+        <span class="navbar-text text-white me-3">Hello, <strong>{{ username }}</strong></span>
+        <a href="{{ url_for('history') }}" class="btn btn-light btn-sm me-2">📑 Report History</a>
+        <a href="{{ url_for('logout') }}" class="btn btn-danger btn-sm">🚪 Logout</a>
+      </div>
+    </div>
+  </nav>
 
   <div class="container py-5">
     <div class="text-center mb-4">
-      <div class="header-title"> <span style="font-size:2.4rem">🩺</span> Symptom Diagnosis</div>
+      <div class="header-title"><span style="font-size:2rem">🩺</span> Symptom Diagnosis</div>
     </div>
 
     <div class="card shadow p-4">
       <h3 class="text-center mb-3">Enter symptom(s)</h3>
-      <form action="{{ url_for('result') }}" method="POST" id="symptom-form">
+      <form action="{{ url_for('submit') }}" method="POST" id="symptom-form">
         <div class="mb-3">
           <label for="symptom-input" class="form-label">Type symptoms (separate multiple with commas)</label>
-          <input id="symptom-input" name="symptoms" type="text" class="form-control" placeholder="e.g., fever, cough" autocomplete="off">
-          <div class="form-text">Tip: start typing and choose from suggestions.</div>
+          <input id="symptom-input" name="symptoms" type="text" class="form-control" placeholder="e.g., fever, cough" autocomplete="off" required>
+          <div class="form-text">Tip: start typing and choose from suggestions (autocomplete).</div>
         </div>
         <div class="text-center">
           <button class="btn btn-primary btn-lg" type="submit">Get Diagnosis</button>
@@ -38,20 +49,15 @@
   </div>
 
 <script>
-  // symptom_list injected from Flask
   const symptoms = {{ symptom_list|tojson }};
   $(function(){
     $("#symptom-input").autocomplete({
       source: symptoms,
       minLength: 1,
       select: function(event, ui) {
-        // allow comma-separated entries with autocomplete
         var terms = this.value.split(/,\s*/);
-        // remove current input
         terms.pop();
-        // add selected
         terms.push(ui.item.value);
-        // add placeholder for next
         terms.push("");
         this.value = terms.join(", ");
         return false;
